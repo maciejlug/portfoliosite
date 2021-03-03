@@ -24,7 +24,7 @@ const HeaderContent = () => {
                         <p>Front-End Developer</p>
                     </div>
                     <div className="header-button">
-                        <a href="#projects">More</a>
+                        <a href="#secondPage">More</a>
                     </div>
                 </div>
                 
