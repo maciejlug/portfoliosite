@@ -15,15 +15,15 @@ class App extends React.Component {
 
       fullpages: [
         {
-          text: 'Section 1',
+          text: 'Section',
           content: <HeaderContent/>
         },
         {
-          text: 'Section 2',
+          text: 'Section',
           content: <ProjectsContent/>
         },
         {
-          text: 'Section 3',
+          text: 'Section',
           content: <ContactContent/>
         }
       ],
@@ -50,7 +50,6 @@ class App extends React.Component {
           navigation
           anchors={['firstPage', 'secondPage', 'thirdPage']}
           sectionSelector={SECTION_SEL}
-          sectionsColor={this.state.sectionsColor}
 
           render={comp => (
             <ReactFullpage.Wrapper>

@@ -7,7 +7,6 @@ const Navbar = () => {
 
     return(
         <div className="navbar">
-        <div className="navbar-bg"></div>
             <div className="navbar-inner">
                 <div className="logo">
                     <p>Maciej Ługowski</p>

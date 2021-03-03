@@ -86,3 +86,23 @@ body, html {
     background-color: whitesmoke;
 }
 
+@media only screen and (max-width: 450px) {
+    .logo {
+        display:none;
+    }
+    .header-text, .header-text-bg{
+        width:60%;
+        left:20%;
+    }
+    .big-text{
+
+        font-size: 1.5rem;
+    }
+
+    .small-text{
+
+        font-size: 1.1rem;
+    
+    }
+
+  }

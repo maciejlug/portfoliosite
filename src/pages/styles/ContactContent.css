@@ -83,3 +83,49 @@ body, html {
     font-size: 1.5rem;
     color: cornsilk;
 }
+
+@media only screen and (max-width: 450px) {
+    .contact-grid-box{
+        grid-template-columns: 5% 10% 20% 12% 6% 12% 20% 10% 5%;
+        grid-template-rows: 5% 21% 2% 21% 2% 21% 2% 21% 5%;
+        height: 96%;
+    }
+    .box-icon{
+        transform: scale(0.6)
+    }
+
+    .box-text-upper{
+        font-size: 1rem;
+    }
+
+    .box-text-lower{
+        font-size: 1rem;
+    }
+
+    .email-box,
+    .phone-box,
+    .github-box,
+    .facebook-box{
+        grid-column: 3/8;
+    }
+
+    .email-box{
+        grid-row: 2/3 ;
+    }
+
+    .phone-box{
+        grid-row: 4/5 ;
+    }
+
+    .github-box{
+        grid-row: 6/7 ;
+    }
+    .facebook-box{
+        grid-row: 8/9 ;
+    }
+
+    .box-icon {
+        height: 50%;
+    }
+
+}
