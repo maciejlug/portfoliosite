@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+#contact{
+    height: 95vh;
+    margin-top: -10vh;
+    background: rgb(71,71,71);
+    background: linear-gradient(0deg, rgba(71,71,71,1) 0%, rgba(91,91,91,1) 100%);
+
+}
+
+.contact-grid-box{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 5% 22% 8% 12% 6% 12% 8% 22% 5%;
+    grid-template-rows: 5% repeat(9, 10%);
+}
+
+.email-box, .phone-box, .github-box a, .facebook-box a{
+    background-color:rgb(39, 39, 39);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.25);
+}
+
+.email-box:hover, .phone-box:hover, .github-box a:hover, .facebook-box a:hover{
+    box-shadow: 0px 0px 20px 2px rgba(105, 105, 105, 0.25);
+}
+
+
+.email-box{
+    grid-column:3/5;
+    grid-row:3/6;
+}
+
+
+.phone-box{
+    grid-column:6/8;
+    grid-row:3/6;
+}
+
+.github-box{
+    grid-column:3/5;
+    grid-row:7/10;
+}
+.github-box a{
+    width: 100%;
+    height: 100%;
+}
+
+.facebook-box{
+    grid-column:6/8;
+    grid-row:7/10;
+}
+
+.facebook-box a{
+    width: 100%;
+    height: 100%;
+}
+
+.box-icon{
+    height: 40%;
+}
+
+.box-text-upper{
+    height:10%;
+    font-size: 1.25rem;
+    padding-bottom: 5%;
+}
+
+.box-text-lower{
+    height: 20%;
+    font-size: 1.5rem;
+    color: cornsilk;
+}

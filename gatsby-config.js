@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "my_portfolio",
+    title: "portfolio",
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-fontawesome-css`],
 };
