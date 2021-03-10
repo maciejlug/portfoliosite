@@ -42,12 +42,13 @@ body, html {
 
 .projects-box{
     margin: 0 27%;
+    padding-top: 6%;
     height: 100%;
     
 }
 
 .text-projects-top{
-    padding:5% 0 5% 0;
+    padding:0% 0 5% 0;
 }
 
 .project-container{
@@ -78,6 +79,7 @@ body, html {
 
 .project-text h1{   
     margin-bottom: 20px;
+    font-weight: 100;
 }
 
 .project-text p{
@@ -89,11 +91,18 @@ body, html {
 }
 
 .info-links a{
-    padding-right: 20px;
+    padding: 5px;
+    margin-right: 4%;
+    background-color: rgb(202, 202, 202);
+    color:black;
+}
+
+.info-links a:hover{
+    background-color: rgb(150, 150, 150);
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1600px) {
     .text-projects-top{
         display:none;
     }
@@ -105,6 +114,7 @@ body, html {
     }
     .projects-box{
         margin: 0 15%;
+        padding-top: 20%;
     }
 
     .project-text{

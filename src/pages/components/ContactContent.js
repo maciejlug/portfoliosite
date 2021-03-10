@@ -59,9 +59,9 @@ const ContactContent = () => {
                         </div>
                          </a>
                     </div>
-                    
+                    <Footer />
                 </div>
-                <Footer />
+                
             </div>
 
 

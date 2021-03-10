@@ -33,7 +33,7 @@ const ProjectsContent = () => {
                             <div className="info">
                                 <h1>My portfolio</h1>
                                 <p>The site we currently are on. To make it I
-                                    used Gatsby framework.</p>
+                                    used Gatsby framework and fullPage.js.</p>
                             </div>
                             <div className="info-links">
                                     <a href="https://snakeportfolio.netlify.app">Live</a>

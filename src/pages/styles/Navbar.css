@@ -1,12 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Roboto;
 }
 
 body, html {
     width: 100%;
     height: 100%;
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 a{
@@ -16,7 +17,8 @@ a{
 
 .navbar{
     height: 8vh;
-    position: sticky;
+    position: absolute;
+    width: 100%;
     top: 0;
     z-index: 1000;
     background-color: rgb(51, 46, 43);
@@ -25,7 +27,6 @@ a{
 
 .navbar-inner{
     z-index: 12;
-    width: 86%;
     height: 100%;
     margin:0 7% 0 7%;
     display:flex;
@@ -65,8 +66,18 @@ a{
     left: 0;
   }
 
-  @media only screen and (max-width: 450px) {
+  .on{
+      color: rgb(170, 170, 170);
+    text-shadow: 4px 4px 2px #000000;
+  }
+
+
+  @media only screen and (max-width: 1600px) {
     .logo {
         display:none;
     }
+    .navbar-inner{
+        justify-content: center;
+    }
   }
+

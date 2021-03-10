@@ -10,8 +10,7 @@ body, html {
 }
 
 #contact{
-    height: 95vh;
-    margin-top: -10vh;
+    height: 100vh;
     background: rgb(71,71,71);
     background: linear-gradient(0deg, rgba(71,71,71,1) 0%, rgba(91,91,91,1) 100%);
 
@@ -21,7 +20,7 @@ body, html {
     height: 100%;
     display: grid;
     grid-template-columns: 5% 22% 8% 12% 6% 12% 8% 22% 5%;
-    grid-template-rows: 5% repeat(9, 10%);
+    grid-template-rows: 8% 9% repeat(7, 10%) 9% 4%;
 }
 
 .email-box, .phone-box, .github-box a, .facebook-box a{
@@ -84,11 +83,10 @@ body, html {
     color: cornsilk;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1600px) {
     .contact-grid-box{
         grid-template-columns: 5% 10% 20% 12% 6% 12% 20% 10% 5%;
-        grid-template-rows: 5% 21% 2% 21% 2% 21% 2% 21% 5%;
-        height: 96%;
+        grid-template-rows: 8% 3% 19% 2% 19% 2% 19% 2% 19% 3% 4%;
     }
     .box-icon{
         transform: scale(0.6)
@@ -110,22 +108,26 @@ body, html {
     }
 
     .email-box{
-        grid-row: 2/3 ;
+        grid-row: 3/4 ;
     }
 
     .phone-box{
-        grid-row: 4/5 ;
+        grid-row: 5/6 ;
     }
 
     .github-box{
-        grid-row: 6/7 ;
+        grid-row: 7/8 ;
     }
     .facebook-box{
-        grid-row: 8/9 ;
+        grid-row: 9/10 ;
     }
 
     .box-icon {
         height: 50%;
     }
 
+    .footer{
+        grid-row: 11/12 ;
+        grid-column: 1/10;
+    }
 }
