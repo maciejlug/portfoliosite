@@ -37,22 +37,6 @@ class App extends React.Component {
       return null;
     }
 
-    if(document.body.className == "fp-viewing-firstPage"){
-      document.getElementsByClassName("navbar-link")[1].classList.remove("on")
-      document.getElementsByClassName("navbar-link")[2].classList.remove("on")
-      document.getElementsByClassName("navbar-link")[0].classList.add("on")
-    }
-    if(document.body.className == "fp-viewing-secondPage"){
-      document.getElementsByClassName("navbar-link")[0].classList.remove("on")
-      document.getElementsByClassName("navbar-link")[2].classList.remove("on")
-      document.getElementsByClassName("navbar-link")[1].classList.add("on")
-    }
-    if(document.body.className == "fp-viewing-thirdPage"){
-      document.getElementsByClassName("navbar-link")[0].classList.remove("on")
-      document.getElementsByClassName("navbar-link")[1].classList.remove("on")
-      document.getElementsByClassName("navbar-link")[2].classList.add("on")
-    }
-
 
 
     return (
