@@ -21,7 +21,6 @@ a{
     width: 100%;
     top: 0;
     z-index: 1000;
-    background-color: rgb(51, 46, 43);
 }
 
 
@@ -66,10 +65,12 @@ a{
     left: 0;
   }
 
+
   .on{
-      color: rgb(170, 170, 170);
-    text-shadow: 4px 4px 2px #000000;
-  }
+        color: rgb(170, 170, 170);
+        text-shadow: 4px 4px 2px #000000;
+    }
+
 
 
   @media only screen and (max-width: 1600px) {
