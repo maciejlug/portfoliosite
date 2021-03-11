@@ -83,17 +83,17 @@ a{
     .navbar-inner{
         margin: 0;
     }
+
     .navbar-link{
-        font-size: 1.5rem;
-    }
-    .navbar-link{
-        width: 33%;
         display: flex;
         justify-content: center;
+        font-size: 1.5rem;
     }
     .links{
         width: 100%;
-
+        margin: 0 10% 0 10%;
+        justify-content: space-evenly;
     }
+
   }
 
