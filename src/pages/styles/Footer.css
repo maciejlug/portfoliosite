@@ -10,10 +10,11 @@ body, html {
 }
 
 .footer{
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(55, 55, 55);;
     display:flex;
     align-items: center;
     justify-content: center;
     grid-row: 11/12 ;
     grid-column: 1/10;
+    color:white
 }

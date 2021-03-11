@@ -5,7 +5,7 @@ import sample from './bg3.mp4';
 const HeaderContent = () => {
     return(
         <div className="content">
-            <div id="header">
+            <div id="header-content">
  
             <video className='videoTag' className="video" autoPlay loop muted data-keepplaying>
                     <source src={sample} type='video/mp4' />

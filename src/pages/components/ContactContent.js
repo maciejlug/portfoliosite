@@ -8,7 +8,7 @@ import Footer from "./Footer"
 const ContactContent = () => {
     return(
         
-            <div id="contact">
+            <div id="contact-content">
                 <div className="contact-grid-box">
                     <div className="email-box" >
                         <div className="box-icon">

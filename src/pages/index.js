@@ -61,14 +61,18 @@ class App extends React.Component {
       <div className="App">
        
         
-       <Navbar />
+        <Navbar />
         <ReactFullpage
           debug /* Debug logging */
 
           // fullpage options
           licenseKey={'YOUR_KEY_HERE'} // Get one from https://alvarotrigo.com/fullPage/pricing/
           navigation
-          anchors={['firstPage', 'secondPage', 'thirdPage']}
+          slidesNavigation
+          
+         
+          anchors={['home', 'projects', 'contact']}
+          
           onLeave={this.onLeave.bind(this)}
           sectionSelector={SECTION_SEL}
 

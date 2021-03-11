@@ -13,7 +13,7 @@ body, html {
     height: 100vh;
 }
 
-#header{
+#header-content{
 
     height:100%;
 
@@ -54,11 +54,12 @@ body, html {
     display:flex;
     align-items: center;
     justify-content: center;
+    color:#F2DCC2;
 }
 
 .big-text{
     min-height: 40%;
-    font-size: 4rem;
+    font-size: 3.5rem;
 
 }
 
@@ -75,8 +76,8 @@ body, html {
 
 .header-button a{
     padding: 2% 10% 2% 10%;
-    outline:3px solid white;
-    color:white;
+    outline:3px solid #F2DCC2;
+
     transition: ease-in-out 0.3s;
     font-size: 1.5rem;
 }
@@ -86,7 +87,7 @@ body, html {
     background-color: whitesmoke;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 600px) {
     .logo {
         display:none;
     }
