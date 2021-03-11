@@ -60,24 +60,28 @@ body, html {
 
 .projects-text h1{
     color:#F2DCC2;
-    padding-bottom:40px;
+    padding-bottom:5%;
+    font-size: 2vw;
 }
 
 .projects-text p{
    color:#F2DCC2;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
 .info-links{
-    color:#F2DCC2;
+    color:#BF755A ;
     position: absolute;
     bottom:40px;
-    left:40px;
-    font-size: 1.25rem;
+    left:20px;
+    font-size: 1.25vw;
+}
+.info-links a:hover{
+    color:#F2DCC2;
 }
 
 .info-links a{
-    padding-right: 40px;
+    padding: 20px;
 }
 
 .fp-controlArrow.fp-prev {

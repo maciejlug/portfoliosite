@@ -59,13 +59,13 @@ body, html {
 
 .big-text{
     min-height: 40%;
-    font-size: 3.5rem;
+    font-size: 3.5vw;
 
 }
 
 .small-text{
     min-height: 20%;
-    font-size: 2rem;
+    font-size: 2vw;
 
 }
 
@@ -79,12 +79,12 @@ body, html {
     outline:3px solid #F2DCC2;
 
     transition: ease-in-out 0.3s;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
 .header-button a:hover{
     color:black;
-    background-color: whitesmoke;
+    background-color: #F2DCC2;
 }
 
 @media only screen and (max-width: 600px) {

@@ -69,14 +69,14 @@ body, html {
 
 .box-text-upper{
     height:10%;
-    font-size: 1rem;
+    font-size: 1vw;
     padding-bottom: 5%;
     color:#F2DCC2;
 }
 
 .box-text-lower{
     height: 20%;
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     color:#F2DCC2;
 }
 
