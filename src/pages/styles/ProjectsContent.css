@@ -55,33 +55,42 @@ body, html {
     height: 50%;
     padding:40px;
     position:relative;
-    background-color: rgb(40, 40, 40)
+    background-color: rgb(40, 40, 40);
 }
 
 .projects-text h1{
     color:#F2DCC2;
-    padding-bottom:5%;
     font-size: 2vw;
+    display:flex;
+    justify-content: center;
+    height: 30%;
+
 }
 
 .projects-text p{
    color:#F2DCC2;
     font-size: 1.5vw;
+    display:flex;
+    text-align:center;
+    height: 40%;
 }
 
 .info-links{
     color:#BF755A ;
-    position: absolute;
-    bottom:40px;
-    left:20px;
     font-size: 1.25vw;
+    height: 30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .info-links a:hover{
     color:#F2DCC2;
 }
 
-.info-links a{
-    padding: 20px;
+.info-links-inner{
+    width:25%;
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .fp-controlArrow.fp-prev {
@@ -136,17 +145,25 @@ body, html {
     }
 
     .projects-text p{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
     .info-links{
-        font-size: 1rem;
+        font-size: 1.2rem;
         bottom: 15px;
         left: 5px;
     }
     
-    .info-links a{
-        padding: 5px;
-        
+    .background-projects{
+        height: 70%;
+    }
+
+    .info-links-inner{
+        width:50%;
+
+    }
+
+    .links{
+        margin: 0 10% 0 10%;
     }
 }

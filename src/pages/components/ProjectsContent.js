@@ -17,11 +17,13 @@ const ProjectsContent = () => {
                             </div>
                             <div className="projects-text">
                                 <h1>Snake Game</h1>
-                                <p>Game written in JavaScript. You can play solo or
+                                <p>It is written in JavaScript. You can play solo or
                                     with your friend in 2 players mode.</p>
                                 <div className="info-links">
-                                    <a href="https://snakeportfolio.netlify.app">Live</a>
-                                    <a href="https://github.com/maciejlug/snakegame">Github</a>
+                                    <div className="info-links-inner">
+                                        <a href="https://snakeportfolio.netlify.app">Live</a>
+                                        <a href="https://github.com/maciejlug/snakegame">Github</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -35,11 +37,13 @@ const ProjectsContent = () => {
                                 </div>
                                 <div className="projects-text">
                                     <h1>Portfolio</h1>
-                                    <p>The site we currently are on. To make it I
+                                    <p>The site you currently are on. To make it I
                                     used Gatsby framework and fullPage.js.</p>
                                     <div className="info-links">
-                                        <a href="https://snakeportfolio.netlify.app">Live</a>
-                                        <a href="https://github.com/maciejlug/snakegame">Github</a>
+                                        <div className="info-links-inner">
+                                            <a href="https://snakeportfolio.netlify.app">Live</a>
+                                            <a href="https://github.com/maciejlug/snakegame">Github</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -56,8 +60,10 @@ const ProjectsContent = () => {
                                     <p>This site is written in pure JavaScript. The purpose
                                     of it was to learn.</p>                                   
                                     <div className="info-links">
-                                        <a href="https://mygalleryjs.netlify.app">Live</a>
-                                        <a href="https://github.com/maciejlug/gallery-js-css">Github</a>
+                                        <div className="info-links-inner">
+                                            <a href="https://mygalleryjs.netlify.app">Live</a>
+                                            <a href="https://github.com/maciejlug/gallery-js-css">Github</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
