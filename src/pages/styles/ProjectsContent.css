@@ -94,8 +94,6 @@ body, html {
     right: 10% !important;
     border-width: 38.5px 0 38.5px 34px !important;
     border-color: transparent transparent transparent #BF755A !important;
-
-
 }
 
 .fp-slidesNav.fp-bottom {
@@ -106,4 +104,49 @@ body, html {
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span {
     background: #BF755A !important; 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #project-box{
+        height: 50vh;
+    }
+
+    #project-box-inner{
+        width: 70%;
+    }
+
+
+    .fp-controlArrow.fp-prev {
+        display:none
+    }
+
+    .fp-controlArrow.fp-next {
+        display:none
+    }
+
+    .projects-text{
+        padding:10px;
+    }
+
+    .projects-text h1{
+        font-size: 1.5rem;
+    }
+
+    .projects-text p{
+        font-size: 0.9rem;
+    }
+
+    .info-links{
+        font-size: 1rem;
+        bottom: 15px;
+        left: 5px;
+    }
+    
+    .info-links a{
+        padding: 5px;
+        
+    }
 }

@@ -81,7 +81,19 @@ a{
         display:none;
     }
     .navbar-inner{
+        margin: 0;
+    }
+    .navbar-link{
+        font-size: 1.5rem;
+    }
+    .navbar-link{
+        width: 33%;
+        display: flex;
         justify-content: center;
+    }
+    .links{
+        width: 100%;
+
     }
   }
 
