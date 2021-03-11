@@ -41,8 +41,8 @@ const ProjectsContent = () => {
                                     used Gatsby framework and fullPage.js.</p>
                                     <div className="info-links">
                                         <div className="info-links-inner">
-                                            <a href="https://snakeportfolio.netlify.app">Live</a>
-                                            <a href="https://github.com/maciejlug/snakegame">Github</a>
+                                            <a href="https://portfoliositelug.netlify.app/">Live</a>
+                                            <a href="https://github.com/maciejlug/portfoliosite">Github</a>
                                         </div>
                                     </div>
                                 </div>
