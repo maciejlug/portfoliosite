@@ -13,9 +13,9 @@ const Navbar = () => {
                     <a href="#firstPage">Maciej Ługowski</a>
                 </div>
                 <ul className="links">
-                    <li className="navbar-link  on"><a href="#firstPage">Home</a></li>
-                    <li className="navbar-link"><a href="#secondPage" >Projects</a></li>
-                    <li className="navbar-link"><a href="#thirdPage" >Contact</a></li>
+                    <li className="navbar-link  on"><a href="#home">Home</a></li>
+                    <li className="navbar-link"><a href="#projects" >Projects</a></li>
+                    <li className="navbar-link"><a href="#contact" >Contact</a></li>
                 </ul>
             </div>
         </div>
