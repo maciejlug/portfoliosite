@@ -3,6 +3,7 @@ import "../styles/ProjectsContent.css"
 import SnakeImg from "../../images/snake.png"
 import PortfolioImg from "../../images/portfolio.png"
 import GalleryImg from "../../images/gallery.png"
+import CounterImg from "../../images/counter.png"
 
 const ProjectsContent = () => {
     return(
@@ -33,7 +34,7 @@ const ProjectsContent = () => {
                     <div id="project-box">
                             <div id="project-box-inner">
                                 <div className="background-projects">
-                                    <img src={PortfolioImg} alt="project1"></img>
+                                    <img src={PortfolioImg} alt="project2"></img>
                                 </div>
                                 <div className="projects-text">
                                     <h1>Portfolio</h1>
@@ -53,7 +54,7 @@ const ProjectsContent = () => {
                     <div id="project-box">
                             <div id="project-box-inner">
                                 <div className="background-projects">
-                                    <img src={GalleryImg} alt="project1"></img>
+                                    <img src={GalleryImg} alt="project3"></img>
                                 </div>
                                 <div className="projects-text">
                                     <h1>Gallery</h1>
@@ -63,6 +64,26 @@ const ProjectsContent = () => {
                                         <div className="info-links-inner">
                                             <a href="https://mygalleryjs.netlify.app">Live</a>
                                             <a href="https://github.com/maciejlug/gallery-js-css">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div className="slide">
+                    <div id="project-box">
+                            <div id="project-box-inner">
+                                <div className="background-projects">
+                                    <img src={CounterImg} alt="project4"></img>
+                                </div>
+                                <div className="projects-text">
+                                    <h1>Counter</h1>
+                                    <p>A site that quickly calculates the number of days of a selected date.
+                                         You can use it to count down to your birthday or a deadline. </p>                                   
+                                    <div className="info-links">
+                                        <div className="info-links-inner">
+                                            <a href="https://newcounter.netlify.app/">Live</a>
+                                            <a href="https://github.com/maciejlug/counter-improved">Github</a>
                                         </div>
                                     </div>
                                 </div>
