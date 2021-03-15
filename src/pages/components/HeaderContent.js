@@ -1,6 +1,6 @@
 import * as React from "react"
 import "../styles/HeaderContent.css"
-import sample from './bg3.mp4';
+import sample from './bg5.mp4';
 
 const HeaderContent = () => {
     return(

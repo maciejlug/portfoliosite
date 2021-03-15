@@ -78,8 +78,7 @@ const ProjectsContent = () => {
                                 </div>
                                 <div className="projects-text">
                                     <h1>Counter</h1>
-                                    <p>A site that quickly calculates the number of days of a selected date.
-                                         You can use it to count down to your birthday or a deadline. </p>                                   
+                                    <p>A site that shows you time left to the date you picked. </p>                                   
                                     <div className="info-links">
                                         <div className="info-links-inner">
                                             <a href="https://newcounter.netlify.app/">Live</a>
