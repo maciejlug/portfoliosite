@@ -82,7 +82,7 @@ body, html {
 @media only screen and (max-width: 600px) {
     .contact-grid-box{
         grid-template-columns: 5% 10% 20% 12% 6% 12% 20% 10% 5%;
-        grid-template-rows: 8% 3% 19% 2% 19% 2% 19% 2% 19% 3% 4%;
+        grid-template-rows: 4% 5% 19% 2% 19% 2% 19% 2% 19% 5% 4%;
     }
     .box-icon{
         transform: scale(0.6)
