@@ -4,6 +4,7 @@ import SnakeImg from "../../images/snake.png"
 import PortfolioImg from "../../images/portfolio.png"
 import GalleryImg from "../../images/gallery.png"
 import CounterImg from "../../images/counter.png"
+import VideoHost from "../../images/videohost.png"
 
 const ProjectsContent = () => {
     return(
@@ -54,16 +55,16 @@ const ProjectsContent = () => {
                     <div id="project-box">
                             <div id="project-box-inner">
                                 <div className="background-projects">
-                                    <img src={GalleryImg} alt="project3"></img>
+                                    <img src={VideoHost} alt="project3"></img>
                                 </div>
                                 <div className="projects-text">
-                                    <h1>Gallery</h1>
-                                    <p>This site is written in pure JavaScript. The purpose
-                                    of it was to learn.</p>                                   
+                                    <h1>Video Hosting</h1>
+                                    <p>You can upload, comment and like videos. You need to create account to do so. Created
+                                        with Django framework and bootstrap.</p>                                   
                                     <div className="info-links">
                                         <div className="info-links-inner">
-                                            <a href="https://mygalleryjs.netlify.app">Live</a>
-                                            <a href="https://github.com/maciejlug/gallery-js-css">Github</a>
+                                            <a href="http://videohostlug.ct8.pl/">Live</a>
+                                            <a href="https://github.com/maciejlug/First-project-Django-youtube/blob/main/views.py">Github</a>
                                         </div>
                                     </div>
                                 </div>
