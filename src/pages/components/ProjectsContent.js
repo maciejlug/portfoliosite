@@ -59,7 +59,7 @@ const ProjectsContent = () => {
                                 </div>
                                 <div className="projects-text">
                                     <h1>Video Hosting</h1>
-                                    <p>You can upload, comment and like videos. You need to create account to do so. Created
+                                    <p>You can upload, comment and like videos. Created
                                         with Django framework and bootstrap.</p>                                   
                                     <div className="info-links">
                                         <div className="info-links-inner">
